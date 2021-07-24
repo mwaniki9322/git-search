@@ -1,11 +1,14 @@
 .navbar{
-    height: 80px;
+    height: 60px;
 }
-.nav-brand{
-    color: white;
-    font-size: 40px;
-}
+
 a{
     color: white;
     float: right;
+    text-decoration: none;
+    padding-left: 30px;
+    font-size: large;
+}
+a:hover{
+    text-decoration: underline;
 }
