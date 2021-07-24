@@ -18,7 +18,7 @@ username:string
     return this.http.get(`https://api.github.com/users/${this.username}?access_token?client_id= ${environment.acessToken}`)
 }
 getPersonsRepos(){
-  return this.http.get(`https://api.github.com/users/Alice-Githui/repos?access_token?client_id= ${environment.acessToken}`)
+  return this.http.get(`https://api.github.com/users/mwaniki9322/repos?access_token?client_id= ${environment.acessToken}`)
 }
 updateProfile(username: string){
   this.username = username

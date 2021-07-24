@@ -1,0 +1,15 @@
+img{
+    border-radius: 50%;
+    height: 130px;
+}
+.container{
+    text-align: center;
+    margin-top: 20px;
+
+}
+#btn-1{
+    margin-top: 20px;
+}
+.form-control{
+    width: 200px;
+}
