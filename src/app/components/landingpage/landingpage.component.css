@@ -10,4 +10,11 @@ body{
 }
 h1,h4{
     font-size: 20px;
+ 
+}
+h4:hover{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
 }

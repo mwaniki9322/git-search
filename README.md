@@ -1,27 +1,53 @@
-# Project
+# QUOTE ME!
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
+#### Created by 
+[DENNIS MWANIKI]()
 
-## Development server
+## Description
+An application that allows users to upload quotes. The quotes can then be up voted, down voted and/or deleted.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Application Features
+* Personal Detail input
+* Author Detail Input
+* Quote Input
+* Upvote Quote
+* DownVote Quote
+* Delete Quote
 
-## Code scaffolding
+## Setup Process
+To run the web application on your server use the following steps.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+*  git clone https://github.com/mwaniki9322/Quote.git
+*  cd Quote
+*  code .
+*  ng serve -o
 
-## Build
+## Technologies Used
+This project was generated with Angular CLI version 12.1.2. 
+* HTML
+* CSS
+* Typescript
+* Bootstrap
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Behaviour Driven Development(BDD)
+### 1. Displays Form To Enter Quote
+* INPUT: Quote Details
+* OUTPUT: Displays Quote Details.
 
-## Running unit tests
+### 2. Displays An Error Message If Quote Details Are Not Filled
+* INPUT: ""
+* OUTPUT:"Field is Required". 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## To Do
+* Store quote entries in a database
+* Improve functionality of voting buttons to ensure one can only like OR dislike a quote
+* Add custom validations to the form to prevent submission of inputs with just whitespace
 
-## Running end-to-end tests
+### Known bugs
+* No bags reported.Raise a bug fix [here](https://github.com/mwaniki9322/Quote.git)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Contact
+* If you wish to reach out incase of any issue you can pull request
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### LICENSE
+https://github.com/mwaniki9322/Quote/blob/Master/LICENSE
