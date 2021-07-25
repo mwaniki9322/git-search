@@ -31,12 +31,19 @@ This project was generated with Angular CLI version 12.1.2.
 
 ## Behaviour Driven Development(BDD)
 ### 1. Displays Search Bar
-* INPUT: Username
-* OUTPUT: Displays User Details.
+* INPUT: Username.
+* OUTPUT: Displays Github Profile.
 
 ### 2. Displays Nothing If User Details Are Not Filled
+* INPUT: "".
+* OUTPUT:"".
+### 3. Displays Search Bar For Repositories
+* INPUT: Username
+* Output: Display Repositories of User.
+
+### 4. Displays Nothing If User Details Are Not Filled
 * INPUT: ""
-* OUTPUT:"". 
+* OUTPUT:"".
 
 ## To Do
 * Include pagination for API responses
@@ -49,4 +56,4 @@ This project was generated with Angular CLI version 12.1.2.
 * If you wish to reach out incase of any issue you can pull request
 
 ### LICENSE
-https://github.com/mwaniki9322/git-search/blob/Master/LICENSE
+https://raw.githubusercontent.com/mwaniki9322/git-search/master/LICENSE
