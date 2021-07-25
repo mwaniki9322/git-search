@@ -10,20 +10,22 @@
         </div>
     
          <div class="container" id="container-2">
-                    <img src = {{profile.avatar_url}} alt ="github user's image">
+                    <img src = {{profile.avatar_url}} alt ="github user's image"><br>
+                    <label for="login">Username:</label>
+                    <p appStrikethrough>{{profile.login | uppercase}}</p>
                 
-
-            
-                    Username:<p appStrikethrough>{{profile.login | uppercase}}</p>
-                    <br>
-                    <br>
-                    <p>Email Address: {{profile.email}}</p>
-                    <p *ngIf = "profile.twitter_username">Bio: {{profile.twitter_username}}</p>
-                    <br>
-                    Lives in: {{profile.location | uppercase}} and is a {{profile.bio | uppercase}}
+                    <div>
+                    <label for="followers">Followers:</label>
+                    {{profile.followers}}
+                    </div>
+                    <div>
+                    <label for="following">Following</label>
+                    {{profile.following}}
+                    </div>
+                    <p> {{profile.bio | uppercase}}</p>
                     <br>
                     Joined GitHub on <strong appStrikethrough>{{profile.created_at | date}}</strong>
-            
+            {{repositories.description}}
         </div>
 
  
