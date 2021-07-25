@@ -2,14 +2,12 @@ img{
     border-radius: 50%;
     height: 130px;
 }
-.container{
+#container-1{
+    text-align: center;
+    margin-top: 50px;
+}
+#container-2{
     text-align: center;
     margin-top: 20px;
+}
 
-}
-#btn-1{
-    margin-top: 20px;
-}
-.form-control{
-    width: 200px;
-}
