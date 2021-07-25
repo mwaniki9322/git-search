@@ -1,3 +1,13 @@
 body{
     background-image: url(../../../assets/GitHub-logo-removebg-preview.png);
 }
+.container-fluid{
+    margin-top: 80px;
+
+}
+.content{
+    font-size: 20px;
+}
+h1,h4{
+    font-size: 20px;
+}
