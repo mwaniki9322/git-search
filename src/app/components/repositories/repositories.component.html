@@ -9,18 +9,17 @@
         </form>    
     </div>
 
-    <div class="container" id="container-2">
     <div class="row">
-        <div *ngFor = "let repo of repositories" class = "col-md-4 card" style="width: 18rem;" id="repo-details">
-            <p id="fullname">GitHub Repository Name: {{repo.full_name}}</p>
-            <button class = "btn" style = "background-color: #7AF5F5"><a href = {{repo.html_url}}>View Repository on Github</a></button>
-            <br>
-            <p id="repodetails">{{repo.description}}</p>
+        <div class="col-md-4" *ngFor='let repo of repositories'>
+            <div class="card">
+              <p id="p-1"><strong>{{repo.name}}</strong></p>
+             <div class="card-text">
+                 {{repo.description}}
+             </div>
             </div>
-            
+        </div>
             
     
         </div>
 
-    </div>
 
