@@ -13,7 +13,8 @@ import { RepositoriesComponent } from './components/repositories/repositories.co
 import { DaysAgoPipe } from './pipe/days-ago.pipe';
 import { ColorDirective } from './directive/color.directive';
 import { NotFoundComponent } from './components/not-found/not-found.component';
-
+import { NgProgressModule } from '@ngx-progressbar/core';
+import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,9 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    NgProgressModule.forRoot(),
+    NgProgressHttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

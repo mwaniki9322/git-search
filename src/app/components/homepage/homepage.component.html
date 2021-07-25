@@ -3,7 +3,7 @@
 <div class = "container" id="container-1">
         <form>
             <div class="form-group">
-                <input type = "text" id="user-name" class="form-control"  placeholder = "Enter Your GitHub Name" [(ngModel)]="username" name="username"> 
+                <input type = "text" id="user-name" class="form-control"  placeholder = "Enter Your GitHub Name" [(ngModel)]="username" name="username" required> 
             </div>
             <button type="submit" class="btn btn-primary" (click)= "submitName()" id="btn-1">Submit</button>
         </form>
@@ -34,6 +34,8 @@
                         <label for="created">Created On:</label>
                 {{profile.created_at | date}}({{profile.created_at|daysAgo}}days ago)
                   </div>
+
+                  
 
         
         

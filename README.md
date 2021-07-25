@@ -1,24 +1,24 @@
-# QUOTE ME!
+# GIT-SEARCH
 
 #### Created by 
 [DENNIS MWANIKI]()
 
 ## Description
-An application that allows users to upload quotes. The quotes can then be up voted, down voted and/or deleted.
+An application that allows users to search for github users using their github usernames.Also allows users to search for repositories of users.
 
 ## Application Features
-* Personal Detail input
-* Author Detail Input
-* Quote Input
-* Upvote Quote
-* DownVote Quote
-* Delete Quote
+* Username Input
+* Search Username
+* Search Repository
+* View user github details
+* View repository details
+
 
 ## Setup Process
 To run the web application on your server use the following steps.
 
-*  git clone https://github.com/mwaniki9322/Quote.git
-*  cd Quote
+*  git clone https://github.com/mwaniki9322/git-search.git
+*  cd git-search
 *  code .
 *  ng serve -o
 
@@ -30,24 +30,23 @@ This project was generated with Angular CLI version 12.1.2.
 * Bootstrap
 
 ## Behaviour Driven Development(BDD)
-### 1. Displays Form To Enter Quote
-* INPUT: Quote Details
-* OUTPUT: Displays Quote Details.
+### 1. Displays Search Bar
+* INPUT: Username
+* OUTPUT: Displays User Details.
 
-### 2. Displays An Error Message If Quote Details Are Not Filled
+### 2. Displays Nothing If User Details Are Not Filled
 * INPUT: ""
-* OUTPUT:"Field is Required". 
+* OUTPUT:"". 
 
 ## To Do
-* Store quote entries in a database
-* Improve functionality of voting buttons to ensure one can only like OR dislike a quote
-* Add custom validations to the form to prevent submission of inputs with just whitespace
+* Include pagination for API responses
+* Include code that changes color of language indicator based on language used to write a specific repository
 
 ### Known bugs
-* No bags reported.Raise a bug fix [here](https://github.com/mwaniki9322/Quote.git)
+* No bags reported.Raise a bug fix [here](https://github.com/mwaniki9322/git-search.git)
 
 ## Contact
 * If you wish to reach out incase of any issue you can pull request
 
 ### LICENSE
-https://github.com/mwaniki9322/Quote/blob/Master/LICENSE
+https://github.com/mwaniki9322/git-search/blob/Master/LICENSE
