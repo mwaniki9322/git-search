@@ -10,23 +10,31 @@
         </div>
     
          <div class="container" id="container-2">
-                    <img src = {{profile.avatar_url}} alt ="github user's image"><br>
+                    <img src = {{profile.avatar_url}} alt ="github user's image">
+                    <div>
                     <label for="login">Username:</label>
-                    <p appStrikethrough>{{profile.login | uppercase}}</p>
-                
+                    {{profile.login}}
+                    </div>
+
                     <div>
                     <label for="followers">Followers:</label>
                     {{profile.followers}}
                     </div>
+
                     <div>
-                    <label for="following">Following</label>
+                    <label for="following">Following:</label>
                     {{profile.following}}
                     </div>
+                    <div>
+                        <label for="bio">Bio:</label>
                     <p> {{profile.bio | uppercase}}</p>
-                    <br>
-                    Joined GitHub on <strong appStrikethrough>{{profile.created_at | date}}</strong>
-            {{repositories.description}}
-        </div>
+                    </div>
+
+                    <div>
+                        <label for="created">Created On:</label>
+                {{profile.created_at | date}}
+                  </div>
+        
 
  
 
