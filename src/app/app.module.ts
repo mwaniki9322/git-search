@@ -10,7 +10,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { LandingpageComponent } from './components/landingpage/landingpage.component';
 import { RepositoriesComponent } from './components/repositories/repositories.component';
-import { DaysAgoPipe } from './days-ago.pipe';
+import { DaysAgoPipe } from './pipe/days-ago.pipe';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { DaysAgoPipe } from './days-ago.pipe';
     HomepageComponent,
     LandingpageComponent,
     RepositoriesComponent,
-    DaysAgoPipe
+    DaysAgoPipe,
+  
   ],
   imports: [
     BrowserModule,
