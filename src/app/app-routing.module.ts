@@ -4,6 +4,7 @@ import { HomepageComponent } from './components/homepage/homepage.component';
 import { LandingpageComponent } from './components/landingpage/landingpage.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: 'home', pathMatch: 'full'},
   {path:'home',component:LandingpageComponent},
   {path:'finduser',component:HomepageComponent}
 ];
