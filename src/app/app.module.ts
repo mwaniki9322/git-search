@@ -11,6 +11,7 @@ import { HomepageComponent } from './components/homepage/homepage.component';
 import { LandingpageComponent } from './components/landingpage/landingpage.component';
 import { RepositoriesComponent } from './components/repositories/repositories.component';
 import { DaysAgoPipe } from './pipe/days-ago.pipe';
+import { ColorDirective } from './directive/color.directive';
 
 
 @NgModule({
@@ -21,6 +22,8 @@ import { DaysAgoPipe } from './pipe/days-ago.pipe';
     LandingpageComponent,
     RepositoriesComponent,
     DaysAgoPipe,
+    ColorDirective,
+
   
   ],
   imports: [
